@@ -1,0 +1,331 @@
+*{box-sizing: border-box;}
+
+body{ 
+    background-color: rgba(16, 93, 67, 0.915);
+    width: 375px;
+}
+.btn1{
+   color: azure;
+    margin-left: 310px;
+color:aliceblue;}
+
+    
+
+
+.about{
+
+    display: flex;
+    margin: none;
+    width: 375px;
+    height: 250px;
+}
+
+
+    
+
+.about_Div1 {
+
+    position:absolute;
+    font-family: Arial;
+    color:aliceblue;
+    font-size:25px;
+}
+
+.about_Div1 span {
+
+ 
+    color:rgb(113, 229, 148);
+    font-size:25px;
+
+}
+.about_Div1>p{
+    position: absolute;
+    font-family: 'Courier New', Courier;
+    font-size: 11px;
+    z-index: 3 ;}
+
+   
+
+ .img1{
+
+    margin-left: 100px;
+    position:absolute;
+    max-width: 40%;
+    max-height: 40%;
+    z-index: 2;
+    border: 2px soli green;
+}
+
+
+.img2{
+  
+    margin-left: 80px;
+    width: 60%;
+    height: 275px   ;
+    
+    z-index: 1;
+}
+
+    .about_Div3{
+
+     position: absolute;
+     color:rgba(150, 230, 148, 0.946);
+     font-family:Arial;
+     z-index:3;
+     margin-left: 250px;
+     font-size: 20px;
+    }
+
+
+    .about_Div3>span{
+        font-size: 15px;
+        color: aliceblue;
+    }
+
+    /*section 2-------------------------------------------------------------------
+    ----------------
+    -----------------------------*/
+.about2{margin-top: ;}
+
+    .about2_div{
+        width: 360px;
+        padding: 15px 0px 0px 70px;
+        position: absolute;
+        height: 55px;
+        border-radius:10px;
+        background:rgb(195, 223, 200);
+        z-index: 3;}
+
+
+.about2_button{
+    margin-right: 20px;
+}
+.about2_button2{
+    margin-right: 20px;
+}
+.about2_button3{
+    margin-right: px;
+}
+
+
+h1{ 
+    margin-left: 100px;
+    color:rgba(150, 230, 148, 0.946);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px ;
+}
+
+
+
+.acercademi{
+    width: 350px;
+}
+
+p{
+  text-align: center;
+  font-size: 10PX;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  color: aliceblue;}
+
+
+h2{ margin-left: 120px;
+    color:rgba(150, 230, 148, 0.946);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px }
+
+
+.serviciosimg{
+    
+    margin-left: 13px;
+    border: 1px rgb(41, 76, 216) solid;
+    height: 360px;
+    width: 335px;}
+
+.servicios1{
+
+    width:332px;
+    height:356px;}
+
+.Habilidades{   
+
+        display: flex;
+        flex-direction: column;
+        margin-left: 13px;
+        gap: 5px;
+      /*  border: 1px rgb(41, 76, 216) solid;*/
+        height:200px;
+        width: 335px;
+        color: aliceblue;}
+    
+    .Habilidades span{color: rgb(63, 235, 114)}
+
+
+.barras{width: 340px;
+        height: 8px;
+       /*border: 4px rgb(255, 249, 249) solid;*/
+        border-radius: 5px;
+        background-color: aliceblue;}
+
+
+.barras2{width: 300px;
+         border: 4px rgb(113, 229, 148) solid;
+         border-radius: 5px;}
+
+.miportafolio{ 
+    
+    margin-left: 13px;
+   
+    height: 260px;
+    width: 335px;}
+
+.miportafolio1{
+    width: 333px;
+    height: 257px;}
+
+
+
+/* Dispositivos medianos */
+
+    
+@media screen and (min-width: 576px){ 
+   
+    body{ 
+        
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(40, 61, 222, 0.915);
+        width: 375px;
+     }
+        
+    
+    .grand_section{
+        display: flex;
+        flex-direction:     flex;
+        
+       
+    }
+    .grandson1{ width: 100%;
+    border-right:  4px rgb(54, 18, 185) dashed;
+}
+        
+    .about{
+
+      
+        margin-right: 700px;
+        width: 375px;
+        height: 250px;
+    }
+    
+    
+        
+    
+    .about_Div1 {
+    
+        position:fixed;
+        left: 0;
+        font-family: Arial;
+        color:aliceblue;
+        font-size:25px;
+    }
+    
+    .about_Div1 span {
+    
+        margin-left: 10px;
+        color:rgb(15, 2, 109);
+        font-size:25px;
+    
+    }
+    .about_Div1>p{
+        position: absolute;
+        margin-right: 10px;
+        font-family: 'Courier New', Courier;
+        font-size: 11px;
+        z-index: 3 ;}
+    
+       
+    
+     .img1{
+  
+        margin-left: 60px;
+        position: absolute;
+        margin-bottom:2 ;
+        z-index: 2;
+
+    }
+    
+    
+    .img2{
+     
+        margin-left:0 ;
+        width:0 ;
+        height:  0 ;
+        
+        z-index: 1;
+    }
+    
+        .about_Div3{
+    
+         position: absolute;
+         color:rgb(15, 2, 109);
+      
+         font-size: 20px;
+         z-index:3;
+         margin-left: 250px;
+         font-size: 20px;
+        }
+    
+    
+        .about_Div3>span{
+            font-size: 15px;
+            color: aliceblue;
+        }
+   
+    
+ h1{color: rgb(15, 2, 109);}
+
+    .about2{margin-top:70px;}
+
+
+
+.about2_div{
+        width: 360px;
+        padding: 15px 0px 0px 70px;
+        position: absolute;
+        height: 55px;
+        border-radius:10px;
+        background:rgb(181, 193, 244);
+        z-index: 3;}
+
+        
+.port_title{
+    margin-top:349px;
+    position: absolute;
+    color:rgb(15, 2, 109)
+}
+
+    .servicios_title{
+        color:rgb(15, 2, 109)
+    }
+
+    .hab_title{color:rgb(15, 2, 109)}
+    
+    .miportafolio{margin-top: 150px;
+    height: 180px;}
+
+    .miportafolio1{height: 170px;}
+
+    .Habilidades{display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 20px;}
+
+    .barras2{border: solid rgb(15, 2, 109);
+    background-color: rgb(15, 2, 109);
+height: 10px;}
+}
+
+
+
+
+
+
